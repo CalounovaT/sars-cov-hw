@@ -1,0 +1,10 @@
+name: cg_sars_cov_env
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - snakemake>=3.9.0
+  - bcftools
+  - bwa
+  - igv
